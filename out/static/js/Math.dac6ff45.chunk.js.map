@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/Math.dac6ff45.chunk.js","mappings":"oJAEA,UAFA,SAAeA,EAAGC,GAAK,OAAOD,EAAIC,EAAE,CAAE,EAMtC,MAAMC,EAAK,C","sources":["webpack://webpack_LR/./src/js/count.js"],"sourcesContent":["function count(a, b) { return a - b-1 }\r\n\r\nexport default count\r\n\r\n\r\n\r\nconst PI = 1\r\nexport {PI}"],"names":["a","b","PI"],"sourceRoot":""}
