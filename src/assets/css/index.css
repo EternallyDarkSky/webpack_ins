@@ -4,4 +4,6 @@
     width: 100px;
     background-image: url("../images/1.jpg");
     background-size: contain;
+    color:#12345657;
+    user-select: none;
 }

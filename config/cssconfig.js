@@ -2,17 +2,15 @@
 // CSS 封装减重
 function getStyleLoader(MiNiCssExtractPlugin,others) {
     return [
-        MiNiCssExtractPlugin.loader,
-        "css-loader",
+        // MiNiCssExtractPlugin.loader,
+        "style-loader",
         {
-            loader: "postcss-loader",
-            options: {
-                // css兼容智能预设
-                postcssOptions: {
-                    plugins: ["postcss-preset-env"], //能够解决大多数样式兼容性问题
-                }
+            loader:"css-loader",
+            options:{
+                importLoaders:1
             }
         },
+        "postcss-loader",
         others
     ].filter(Boolean)  // 自动过滤undefined
 }

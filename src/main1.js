@@ -1,6 +1,6 @@
 
 // 引入css 资源
-import "./assets/css/index.css"
+import "./assets/css/test.css"
 
 import "./assets/less/index.less"
 
